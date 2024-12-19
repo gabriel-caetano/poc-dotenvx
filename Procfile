@@ -1,1 +1,1 @@
-web: npx dotenvx run -- node index.js
+web: npx dotenvx run -f .env -- node index.js
