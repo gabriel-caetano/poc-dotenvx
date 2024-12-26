@@ -1,7 +1,7 @@
 # poc-dotenvx
 [Documentação](https://dotenvx.com/docs)
 
-Gerenciamento seguro de variáveis de ambiente, projetada para ser simples de usar e fácil de integrar.
+Gerenciamento seguro de variáveis de ambiente, projetada para ser simples de usar.
 Baseado em criptografia para permitir o compartilhamento dos arquivos .env de forma segura através do GitHub.
 
 ### Implementação
@@ -24,16 +24,3 @@ O arquivo `.env.keys` deve ser ignorado no `.gitignore`
 
 A única informação que deve ficar nas config vars do heroku é a chave privada,
 todo o resto será injetado pelo dotenvx
-
-### Pros
-Simplicidade
-Gratuita
-Rápida para implementar
-
-Desvantagens
-Poucos recursos (apenas criptografia)
-Pouca automatização (atualização de env manualmente commitando no github)
-Aumenta a complexidade de múltiplos envs para o mesmo projeto
-Segurança Menos Robusta (tendo a chave privada tem acesso a tudo)
-
-
